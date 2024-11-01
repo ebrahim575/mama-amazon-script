@@ -4,21 +4,29 @@ This bot automatically visits websites you specify, waits for a bit, then visits
 
 ## Setup Steps
 
-1. **Install Homebrew**
+1. **Get the Code**
    - Open Terminal (press `Command + Space`, type "Terminal", press Enter)
-   - Copy and paste this command into Terminal:
+   - Type these commands to get the code:
+   ```bash
+   cd Desktop
+   git clone https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git
+   cd YOUR_REPO_NAME
+   ```
+
+2. **Install Homebrew**
+   - In Terminal, paste this command:
    ```bash
    /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
    ```
 
-2. **Install Python**
+3. **Install Python**
    - In Terminal, paste these commands:
    ```bash
    brew update
    brew install python
    ```
 
-3. **Set Up Project**
+4. **Set Up Project**
    - In Terminal, paste these commands:
    ```bash
    python3 -m venv .venv
@@ -26,10 +34,12 @@ This bot automatically visits websites you specify, waits for a bit, then visits
    pip3 install -r requirements.txt
    ```
 
-4. **Change Settings** (Optional)
+5. **Change Settings** (Optional)
    To change how the bot works:
-   - Find `main.py` in your downloads folder
-   - Right-click `main.py` and select "Open With" → "TextEdit"
+   - Type this in Terminal to open the settings file:
+   ```bash
+   open -e main.py
+   ```
    - You can change these numbers:
      ```python
      VIEW_TIME_SECONDS = 5  # Change 5 to how many seconds to stay on each page
@@ -44,7 +54,7 @@ This bot automatically visits websites you specify, waits for a bit, then visits
      ```
    - Save the file (Command + S)
 
-5. **Run the Bot**
+6. **Run the Bot**
    - In Terminal, type:
    ```bash
    python3 main.py
