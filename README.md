@@ -9,8 +9,8 @@ This bot automatically visits websites you specify, waits for a bit, then visits
    - Type these commands to get the code:
    ```bash
    cd Desktop
-   git clone https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git
-   cd YOUR_REPO_NAME
+   git clone https://github.com/ebrahim575/mama-amazon-script.git
+   cd mama-amazon-script
    ```
 
 2. **Install Homebrew**
